@@ -1,0 +1,19 @@
+{
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.testing.cwd": "${workspaceFolder}/python",
+    "python.testing.unittestArgs": [
+        "-s",
+        "${workspaceFolder}/python/tests",
+        "-p",
+        "test_ut*.py",
+    ], 
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestArgs": ["-s"],
+    "testing.automaticallyOpenPeekViewDuringAutoRun": false,
+    "testing.openTesting": "openOnTestStart",
+    "testing.automaticallyOpenPeekView": "never",
+    "testing.showAllMessages": true,
+    "testing.alwaysRevealTestOnStateChange": true,
+    "testing.automaticallyOpenTestResults": "openOnTestStart"
+}
